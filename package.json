@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon Back/server.js"
+    "server": "nodemon Back/server.js",
+    "start": "node Back/server.js",
+    "build": "npm install && npm install --prefix Front && npm run build --prefix Front"
   },
   "type": "module",
   "keywords": [],
